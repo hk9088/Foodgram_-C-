@@ -1,0 +1,97 @@
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Foodgram_2.exe.config
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Foodgram_2.exe
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Foodgram_2.pdb
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.csprojAssemblyReference.cache
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Properties.Resources.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.csproj.GenerateResource.cache
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.csproj.CoreCompileInputs.cache
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.exe
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.pdb
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Admin_login.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Admin_Main_Menu.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Main_Menu.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Registration_Menu.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Admin_Customers.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.User_Main_Menu.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Admin_Food_Menu.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.User_Food_Menu.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.User_Food_Menu_Order.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Admin_Food_Orders.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.User_Orders.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Admin_Income.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.User_reservation.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Admin_reservation.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Admin_reservation_book.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Syncfusion.Chart.Base.dll
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Syncfusion.Chart.Windows.dll
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Syncfusion.Grouping.Base.dll
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Syncfusion.Licensing.dll
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Syncfusion.Shared.Base.dll
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Syncfusion.Chart.Base.xml
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Syncfusion.Chart.Windows.xml
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Syncfusion.Grouping.Base.xml
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Syncfusion.Shared.Base.xml
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.csproj.CopyComplete
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.User_review.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\MetroSet UI.dll
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.exe.licenses
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Bunifu_UI_v1.5.3.dll
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Bunifu.Dataviz.WinForms.dll
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.User_payment_Bkash.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\EntityFramework.dll
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\EntityFramework.SqlServer.dll
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\EntityFramework.xml
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\bin\Debug\EntityFramework.SqlServer.xml
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Admin_review.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.User_profile.resources
+F:\Study\programs\C#\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.User_password_reset.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\bin\Debug\Foodgram_2.exe.config
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\bin\Debug\Foodgram_2.exe
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\bin\Debug\Foodgram_2.pdb
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\bin\Debug\EntityFramework.dll
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\bin\Debug\MetroSet UI.dll
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\bin\Debug\Syncfusion.Chart.Base.dll
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\bin\Debug\Syncfusion.Chart.Windows.dll
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\bin\Debug\Syncfusion.Grouping.Base.dll
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\bin\Debug\Syncfusion.Shared.Base.dll
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\bin\Debug\EntityFramework.xml
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\bin\Debug\Syncfusion.Chart.Base.xml
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\bin\Debug\Syncfusion.Chart.Windows.xml
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\bin\Debug\Syncfusion.Grouping.Base.xml
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.csprojAssemblyReference.cache
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Admin_Customers.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Admin_Food_Menu.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Admin_Food_Orders.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Admin_Income.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Admin_login.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Admin_Main_Menu.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Admin_reservation.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Admin_reservation_book.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Admin_review.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Main_Menu.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Registration_Menu.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.Properties.Resources.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.User_Food_Menu.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.User_Food_Menu_Order.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.User_Main_Menu.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.User_Orders.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.User_password_reset.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.User_payment_Bkash.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.User_profile.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.User_reservation.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.User_review.resources
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.csproj.GenerateResource.cache
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.exe.licenses
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.csproj.CoreCompileInputs.cache
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.csproj.CopyComplete
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.exe
+C:\Users\Hridoy\Desktop\CSE 200\Foodgram_2\Foodgram_2\obj\Debug\Foodgram_2.pdb

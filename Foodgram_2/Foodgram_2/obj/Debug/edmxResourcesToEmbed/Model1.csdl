@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FoodgramModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="FoodgramEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="gettotal" ReturnType="Collection(FoodgramModel.gettotal_Result)" />
+  </EntityContainer>
+  <ComplexType Name="gettotal_Result">
+    <Property Type="String" Name="Month" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="Income" Nullable="true" Precision="19" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{851B50B6-31A3-4929-91B5-D0838DDEF087}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Foodgram_2</RootNamespace>
+    <AssemblyName>Foodgram_2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Dataviz.WinForms">
+      <HintPath>..\..\..\..\..\Resource\Bunifu Lastest Components\Bunifu UI Dataviz v2.1.4\Bunifu.Dataviz.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.Licensing, Version=3.2.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b" />
+    <Reference Include="Bunifu.UI.WinForms.1.5.3">
+      <HintPath>..\..\..\..\..\Resource\Bunifu Lastest Components\Bunifu UI WinForms v4.1.1\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>..\..\..\..\..\Resource\Bunifu Lastest Components\Bunifu UI WinForms v4.1.1\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRating">
+      <HintPath>..\..\..\..\..\Resource\Bunifu Lastest Components\Bunifu UI WinForms v4.1.1\Bunifu.UI.WinForms.BunifuRating.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>..\..\..\..\..\Resource\Bunifu Lastest Components\Bunifu UI WinForms v4.1.1\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuToggleSwitch">
+      <HintPath>..\..\..\..\..\Resource\Bunifu Lastest Components\Bunifu UI WinForms v4.1.1\Bunifu.UI.WinForms.BunifuToggleSwitch.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\..\Resource\XanderUI-master\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroSet UI, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroSet_UI.2.0.0\lib\net45\MetroSet UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Syncfusion.Chart.Base, Version=18.4460.0.44, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Chart.Base.18.4.0.44\lib\net46\Syncfusion.Chart.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Chart.Windows, Version=18.4460.0.44, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Chart.Windows.18.4.0.44\lib\net46\Syncfusion.Chart.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grouping.Base, Version=18.4460.0.44, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Grouping.Base.18.4.0.44\lib\net46\Syncfusion.Grouping.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing, Version=18.4460.0.44, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Licensing.18.4.0.44\lib\net46\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base, Version=18.4460.0.44, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Shared.Base.18.4.0.44\lib\net46\Syncfusion.Shared.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="XanderUI">
+      <HintPath>C:\Users\Hridoy\Downloads\XanderUI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_Customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Customers.Designer.cs">
+      <DependentUpon>Admin_Customers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Food_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Food_Menu.Designer.cs">
+      <DependentUpon>Admin_Food_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Food_Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Food_Orders.Designer.cs">
+      <DependentUpon>Admin_Food_Orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Income.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Income.Designer.cs">
+      <DependentUpon>Admin_Income.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_login.Designer.cs">
+      <DependentUpon>Admin_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Main_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Main_Menu.Designer.cs">
+      <DependentUpon>Admin_Main_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_reservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_reservation.Designer.cs">
+      <DependentUpon>Admin_reservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_reservation_book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_reservation_book.Designer.cs">
+      <DependentUpon>Admin_reservation_book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_review.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_review.Designer.cs">
+      <DependentUpon>Admin_review.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodgramDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodgramDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodgramDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodgramDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodgramDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodgramDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodgramDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodgramDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FoodgramDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FoodgramDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gettotal_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Menu.Designer.cs">
+      <DependentUpon>Main_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration_Menu.Designer.cs">
+      <DependentUpon>Registration_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User_Food_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Food_Menu.Designer.cs">
+      <DependentUpon>User_Food_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Food_Menu_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Food_Menu_Order.Designer.cs">
+      <DependentUpon>User_Food_Menu_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Main_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Main_Menu.Designer.cs">
+      <DependentUpon>User_Main_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Orders.Designer.cs">
+      <DependentUpon>User_Orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_password_reset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_password_reset.Designer.cs">
+      <DependentUpon>User_password_reset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_payment_Bkash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_payment_Bkash.Designer.cs">
+      <DependentUpon>User_payment_Bkash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_profile.Designer.cs">
+      <DependentUpon>User_profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_reservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_reservation.Designer.cs">
+      <DependentUpon>User_reservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Reviews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Reviews.Designer.cs">
+      <DependentUpon>User_Reviews.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin_Customers.resx">
+      <DependentUpon>Admin_Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Food_Menu.resx">
+      <DependentUpon>Admin_Food_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Food_Orders.resx">
+      <DependentUpon>Admin_Food_Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Income.resx">
+      <DependentUpon>Admin_Income.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_login.resx">
+      <DependentUpon>Admin_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Main_Menu.resx">
+      <DependentUpon>Admin_Main_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_reservation.resx">
+      <DependentUpon>Admin_reservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_reservation_book.resx">
+      <DependentUpon>Admin_reservation_book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_review.resx">
+      <DependentUpon>Admin_review.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Menu.resx">
+      <DependentUpon>Main_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Registration_Menu.resx">
+      <DependentUpon>Registration_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="User_Food_Menu.resx">
+      <DependentUpon>User_Food_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Food_Menu_Order.resx">
+      <DependentUpon>User_Food_Menu_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Main_Menu.resx">
+      <DependentUpon>User_Main_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Orders.resx">
+      <DependentUpon>User_Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_password_reset.resx">
+      <DependentUpon>User_password_reset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_payment_Bkash.resx">
+      <DependentUpon>User_payment_Bkash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_profile.resx">
+      <DependentUpon>User_profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_reservation.resx">
+      <DependentUpon>User_reservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Reviews.resx">
+      <DependentUpon>User_Reviews.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="FoodgramDataSet.xsc">
+      <DependentUpon>FoodgramDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FoodgramDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodgramDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodgramDataSet.xss">
+      <DependentUpon>FoodgramDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FoodgramDataSet1.xsc">
+      <DependentUpon>FoodgramDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="FoodgramDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodgramDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodgramDataSet1.xss">
+      <DependentUpon>FoodgramDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="FoodgramDataSet2.xsc">
+      <DependentUpon>FoodgramDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="FoodgramDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodgramDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodgramDataSet2.xss">
+      <DependentUpon>FoodgramDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="FoodgramDataSet3.xsc">
+      <DependentUpon>FoodgramDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="FoodgramDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodgramDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodgramDataSet3.xss">
+      <DependentUpon>FoodgramDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="FoodgramDataSet4.xsc">
+      <DependentUpon>FoodgramDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="FoodgramDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FoodgramDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FoodgramDataSet4.xss">
+      <DependentUpon>FoodgramDataSet4.xsd</DependentUpon>
+    </None>
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <Content Include="Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

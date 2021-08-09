@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foodgram_2", "Foodgram_2\Foodgram_2.csproj", "{851B50B6-31A3-4929-91B5-D0838DDEF087}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{851B50B6-31A3-4929-91B5-D0838DDEF087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851B50B6-31A3-4929-91B5-D0838DDEF087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851B50B6-31A3-4929-91B5-D0838DDEF087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851B50B6-31A3-4929-91B5-D0838DDEF087}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61B38108-3007-4AED-B7B0-489B591EBD96}
+	EndGlobalSection
+EndGlobal

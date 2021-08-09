@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FoodgramModelStoreContainer" CdmEntityContainer="FoodgramEntities">
+    <FunctionImportMapping FunctionImportName="gettotal" FunctionName="FoodgramModel.Store.gettotal">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FoodgramModel.gettotal_Result">
+          <ScalarProperty Name="Month" ColumnName="Month" />
+          <ScalarProperty Name="Income" ColumnName="Income" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
